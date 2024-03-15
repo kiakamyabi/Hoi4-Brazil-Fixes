@@ -1,3 +1,26 @@
 ﻿l_english:
 
 BRA_no_fascism_in_south_america_modfix_tt: "Gain §Y$puppet_wargoal_focus$§! wargoal on all §YFascist and Non-Aligned§! nations in §YSouth America§!"
+
+BRA_washington_accords_if_accepted_tt: "\nIf [USA.GetFlag] §Y[USA.GetNameDef]§! agrees to accords:"
+
+BRA_washington_accords_if_reject_tt: "\nIf [USA.GetFlag] §Y[USA.GetNameDef]§! rejects accords:"
+
+
+BRA_accepted_washington_accords_friendly: "Adopted Washington Accords"
+
+BRA_accepted_washington_accords_hostile: "Adopted Washington Accords"
+
+BRA_good_neighbor_policy_tt: "That has its capital in §YNorth America§!, §YSouth America§! or the §YCaribbean§!, must not be in a defensive war against [ROOT.GetFlag] §Y[ROOT.GetNameDef]§!."
+
+BRA_good_neighbor_policy_opinion_embraced: "Good Neighbor Policy: Embraced"
+BRA_good_neighbor_policy_trade_embraced: "Good Neighbor Policy: Embraced"
+
+BRA_good_neighbor_policy_opinion_accepted: "Good Neighbor Policy: Accepted"
+BRA_good_neighbor_policy_trade_accepted: "Good Neighbor Policy: Accepted"
+
+JUNO_brazil_events.14.desc: "The [FROM.GetAdjective] leader, [FROM.GetLeader], has announced that their government intends to seek greater cooperation with the nations of South America in what is being dubbed the "Good Neighbor" policy. What form this cooperation will take remains to be seen, but this is a marked deviation from the previously antagonistic relations between the Spanish and Portuguese speaking nations of the continent."
+
+JUNO_brazil_events.14.a: "This is a great opportunity."
+JUNO_brazil_events.14.b: "We shall see."
+JUNO_brazil_events.14.c: "This is clearly a ruse to undermine us."

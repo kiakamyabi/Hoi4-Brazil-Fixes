@@ -1,0 +1,47 @@
+#########################################################################
+# OPINION MODIFIERS
+##########################################################################
+# value
+# min_trust
+# max_trust
+# decay
+# months/years/days = timer
+# trade = yes/no
+
+opinion_modifiers = {
+	BRA_accepted_washington_accords_friendly = {
+		value = 50
+		months = 48		
+	}
+
+	BRA_accepted_washington_accords_hostile = {
+		value = -50
+		months = 48		
+	}
+
+	BRA_good_neighbor_policy_opinion_embraced = {
+		value = 30
+		months = 48
+		decay = 0.03
+	}
+
+	BRA_good_neighbor_policy_trade_embraced = {
+		trade = yes
+		value = 100
+		months = 48
+		decay = 0.02
+	}
+
+	BRA_good_neighbor_policy_opinion_accepted = {
+		value = 10
+		months = 24
+	}
+
+	BRA_good_neighbor_policy_trade_accepted = {
+		trade = yes
+		value = 30
+		months = 24
+	}
+}	
+
+

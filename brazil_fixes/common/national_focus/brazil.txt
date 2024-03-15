@@ -2039,20 +2039,44 @@ focus_tree = {
 			}
 		}
 		available = {
-			OR = {
-				has_government = democratic
-				has_government = neutrality
-			}
-		}
+			ROOT = {
+				AND = {
+					OR = {
+						has_government = democratic
+						has_government = neutrality
+					}
+					NOT = {
+						any_enemy_country = {
+							custom_trigger_tooltip = {
+								tooltip = BRA_good_neighbor_policy_tt
+								AND = {
+									capital_scope = {
+										OR = {
+											is_on_continent = north_america
+											is_on_continent = south_america
+										}
+									}
+									has_defensive_war_with = ROOT
+								}
+							}
+						}
+					}
+				}
+			}	
+		}	
+		# BRA_good_neighbor_policy_tt
 
-		search_filters = { FOCUS_FILTER_HISTORICAL }
+		search_filters = { FOCUS_FILTER_HISTORICAL FOCUS_FILTER_POLITICAL}
 
 		completion_reward = {
 			add_political_power = 100
 			every_other_country = {
 				limit = {
 					capital_scope = {
-						is_on_continent = south_america
+						OR = {
+							is_on_continent = south_america
+							is_on_continent = north_america
+						}
 					}
 				}
 				country_event = {
@@ -2448,21 +2472,44 @@ focus_tree = {
 		x = -2
 		y = 1
 		relative_position_id = BRA_cooperation_in_the_americas
-		cost = 5
+		cost = 10
 		ai_will_do = {
 			factor = 20
 		}
-		available = {	
-			any_other_country = {
-				original_tag = USA
-				has_war_with_major = yes
-				has_government = democratic
-				NOT = {
-					has_war_with = ROOT
+		available = {
+			AND = {
+				USA = {
+					AND = {
+						NOT = {
+							has_government = fascism
+						}
+						has_war_with_major = yes
+						has_capitulated = no
+						has_elections = yes
+
+						any_enemy_country = {
+							is_major = yes
+							NOT = {
+								has_government = democratic
+							}
+							has_elections = no
+						}
+
+						NOT = {
+							is_justifying_wargoal_against = ROOT
+						}
+
+						NOT = {
+							has_war_with = ROOT
+						}
+					}
 				}
-			}
-			NOT = {
-				is_in_faction = yes
+				ROOT = {
+					OR = {
+						has_government = democratic
+						has_government = neutrality
+					}
+				}
 			}
 		}
 
@@ -2471,13 +2518,13 @@ focus_tree = {
 		}
 		cancel_if_invalid = yes
 
-		search_filters = { FOCUS_FILTER_WAR_SUPPORT FOCUS_FILTER_HISTORICAL }
+		search_filters = { FOCUS_FILTER_STABILITY FOCUS_FILTER_HISTORICAL }
 
 		completion_reward = {
 			every_other_country = {
 				limit = {
 					original_tag = USA
-					has_war_with_major = yes
+					# has_war_with_major = yes
 					has_government = democratic
 				}
 				country_event = {
@@ -2485,8 +2532,10 @@ focus_tree = {
 					hours = 1
 				}
 			}
-			custom_effect_tooltip = BRA_washington_accords_tt
+			custom_effect_tooltip = BRA_washington_accords_if_accepted_tt
 			event_option_tooltip = JUNO_brazil_events.16.a
+			custom_effect_tooltip = BRA_washington_accords_if_reject_tt
+			event_option_tooltip = JUNO_brazil_events.17.a
 		}
 	}
 
@@ -6833,10 +6882,11 @@ focus_tree = {
 		available = {
 		}
 
-		search_filters = { FOCUS_FILTER_POLITICAL }
+		search_filters = { FOCUS_FILTER_POLITICAL FOCUS_FILTER_RESEARCH}
 
 		completion_reward = {
 			set_cosmetic_tag = BRA_union_of_latin_american_socialist_republics_cos_tag
+			add_research_slot = 1
 			every_state = {
 				limit = {
 					is_on_continent = south_america
@@ -6879,15 +6929,6 @@ focus_tree = {
 					has_government = democratic
 					has_government = neutrality
 				}
-				
-				# NOT = {
-				# 	OR = {
-				# 		original_tag = ELS
-				# 		original_tag = MEX
-				# 		original_tag = DOM
-				# 		original_tag = PAN
-				# 	}
-				# }
 			}
 		}
 		search_filters = { FOCUS_FILTER_ANNEXATION }
@@ -8026,7 +8067,6 @@ focus_tree = {
 		}
 		x = 0
 		y = 1
-		search_filters = { FOCUS_FILTER_ANNEXATION }
 		relative_position_id = BRA_italian_cooperation
 		cost = 10
 		ai_will_do = {
@@ -8041,10 +8081,11 @@ focus_tree = {
 			}
 		}
 
-		search_filters = { }
+		search_filters = { FOCUS_FILTER_ANNEXATION FOCUS_FILTER_RESEARCH}
 
 		completion_reward = {
 			set_cosmetic_tag = BRA_america_do_sul
+			add_research_slot = 1
 			custom_effect_tooltip = BRA_unify_south_america_tt
 		}
 	}
