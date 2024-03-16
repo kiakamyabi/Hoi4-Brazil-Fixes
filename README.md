@@ -13,9 +13,8 @@ Feel free to do whatever you want with this code. It should probably be in the a
 ## <ins> DEMOCRATIC BRAZIL 🗽 </ins> <br>
 ---
 ### **The International Crisis** (Focus) [Bugfix] <br>
-```diff
+
 <span style="color:green"> Test </span>
-```
 
 * Added can Send Volunteers Rule` <br>
 * Focus now takes 35 days instead of 70.` <br>
