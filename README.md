@@ -1,3 +1,4 @@
+# Brazil Fixes
 Should work with open beta 1.14.3
 
 Adds a 5th Research Slot for all ideologies, fixed some bugs and tuned some focuses be more interesting for Brazil in the Trials of Allegiance DLC. <br>
@@ -13,8 +14,8 @@ Feel free to do whatever you want with this code. It should probably be in the a
 ---
 ### **The International Crisis** (Focus) [Bugfix]
 
-* Added can Send Volunteers Rule
-* Focus now takes 35 days instead of 70.
+` * Added can Send Volunteers Rule`
+` * Focus now takes 35 days instead of 70.`
 
 Summary: Democracies can't send volunteers making this previously useless.
 
