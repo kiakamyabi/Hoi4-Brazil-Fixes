@@ -1,5 +1,5 @@
 # Brazil Fixes
-_______
+  
 Should work with open beta 1.14.3
 
 Adds a 5th Research Slot for all ideologies, fixed some bugs and tuned some focuses be more interesting for Brazil in the Trials of Allegiance DLC. <br>
@@ -10,18 +10,20 @@ Communist & Fascist is barely touched. <br>
 
 Has no changes to the AI and doesn't add any new focuses, meaning it should be compatible with anything compatible with vanilla. <br>
 
-Feel free to do whatever you want with this code. It should probably be in the actual game. Feel free to hire me as well, and maybe give me a million dollars. <br>
+Feel free to do whatever you want with this code. Some of it should be in the game. Feel free to hire me as well, and maybe give me a million dollars. <br>
 
 ## DEMOCRATIC BRAZIL 🗽
-_______
-_______
+ 
+<details>
+  
 ### The International Crisis 🗺️ ⚔️ (Focus) [Bugfix]
 ```diff
 + Added can Send Volunteers Rule
 ! Focus now takes 35 days instead of 70. 
 ```
->Democracies can't send volunteers making this previously useless. <br>
----
+>Democracies can't send volunteers making this previously useless.
+  
+  
 ### War Bonds 🏭 ⚔️ (Focus) [Bugfix]
 #### Replaced all requirements with:
 ``` diff
@@ -37,12 +39,15 @@ _______
 ```
 >Now more interesting because you have to **balance** your war support and stability before you can get it. 
 >Bonus less up front and better **long term**.
+  </details>
+  
 _______
-_______
-## GOOD NEIGHBOR POLICY PATH >
-### DEMOCRATIC BRAZIL 🗽
-### NON-ALIGNED 'ESTADO NOVO' 🎩 & MONARCHISM 👑
-****
+
+## GOOD NEIGHBOR POLICY PATH
+#### (DEMOCRATIC BRAZIL 🗽, NON-ALIGNED 'ESTADO NOVO' 🎩 & MONARCHISM 👑)
+
+<details>
+  
 ### American-Brazilian Technology Exchange 🎓 (Focus) [Balance]
 ```diff
 + Adds 1 Extra Research Slot.
@@ -120,31 +125,43 @@ _______
 + Now specifies that Strategic Regions 34, 205, and 53 are not included.
 ```
 >Now you get **wargoals** for countries only in **South America**.
+  
+  </details>
+  
 _______
-_______
-## DOMINATION OF THE AMERICAS PATH >
-### FASCIST BRAZIL ☠️
-### NON-ALIGNED 'ESTADO NOVO' 🎩 & MONARCHISM 👑
+
+## DOMINATION OF THE AMERICAS PATH 
+#### (FASCIST BRAZIL ☠️, NON-ALIGNED 'ESTADO NOVO' 🎩 & MONARCHISM 👑)
+
+<details>
+
 ****
 ## America De Sul 🎓 (Focus) [Balance]
 ```diff
 + Adds 1 Extra Research Slot.
 ```
 >I have genetically enhanced all Brazilians. You're welcome.
+  
+ </details>
+ 
 _______
-_______
+
 ## COMMUNIST BRAZIL 🌹
-****
+
+ <details>
+
 ### Establish ULASR 🎓 (Focus) [Balance]
 ```diff
 Adds 1 Extra Research Slot.
 ```
 >I have genetically enhanced all Brazilians. You're welcome.
 ****
-## End South American Capitalism ⚔️ 🌎 🗽 (Focus) [Bugfix]
+### End South American Capitalism ⚔️ 🌎 🗽 (Focus) [Bugfix]
 ```diff
 + Instead of specifically selecting some countries to not be included, now specifies that Strategic Region of 34, 205 and 53 are not included. Meaning you get wargoals for countries only in South America.
 + Focus can now be activated if a Non-Aligned nation is a viable target.
 ```
 >Previously, this focus wouldn't be activatable if **only Non-Aligned targets** were available, as it only checked for **Democracies**.
 >Also, same problems as "No Fascism In South America" with El Salvador, Panama, Mexico or the Dominican Republic.
+
+  </details>
