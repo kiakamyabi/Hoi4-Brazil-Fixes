@@ -10,104 +10,96 @@ Has no changes to the AI and doesn't add any new focuses, meaning it should be c
 
 Feel free to do whatever you want with this code. It should probably be in the actual game. Feel free to hire me as well, and maybe give me a million dollars. <br>
 
-## <ins> DEMOCRATIC BRAZIL 🗽 </ins> <br>
----
-### **The International Crisis** (Focus) [Bugfix] <br>
-
+## DEMOCRATIC BRAZIL 🗽
+****
+### The International Crisis 🗺️ ⚔️ (Focus) [Bugfix]
 ```diff
-+ Added can Send Volunteers Rule` <br>
-+ Focus now takes 35 days instead of 70.` <br>
++ Added can Send Volunteers Rule
+! Focus now takes 35 days instead of 70. 
 ```
+>Democracies can't send volunteers making this previously useless. <br>
+---
+### War Bonds 🏭 ⚔️ (Focus) [Bugfix]
+#### Replaced all requirements with:
+``` diff
++ War support > 0.50
++ Stability > 0.50
+```
+#### War Bonds (National Spirit):
+``` diff
+! Consumer Goods Factor from -15% to -10%.
+- War support factor removed = +20%
++ Weekly war support = 0.10%.
++ Weekly stability = 0.10%.
+```
+>Now more interesting because you have to **balance** your war support and stability before you can get it. 
+>Bonus less up front and better **long term**.
+---
+## GOOD NEIGHBOR POLICY PATH >
+### * DEMOCRATIC BRAZIL 🗽
+### * NON-ALIGNED 'ESTADO NOVO' 🎩
+### * NON-ALIGNED MONARCHISM 👑
+****
+### American-Brazilian Technology Exchange 🎓 (Focus) [Balance]
+```diff
++ Adds 1 Extra Research Slot.
+! Focus now takes 70 days instead of 35.
+```
+>I have genetically enhanced all Brazilians. You're welcome.
+---
+### Latin American Research Council 🎓 (Focus) [Balance]
+```diff
++ Adds 1 Extra Research Slot.
+```
+>I have genetically enhanced all Brazilians. You're welcome.
+---
+### Good Neighbor Policy 🌎 💱 (Focus) [Balance, Depth]
+#### Requirements:
+``` diff
++ Now requires Brazil to not be engaged in any offensive wars with countries in North America, South America, or the Caribbean.
+```
+#### Now has three outcomes for event:
 
-**Summary** : Democracies can't send volunteers making this previously useless. <br>
+* Option A will give a **30 Opinion Bonus** & **100 Trade Influence** for **48 months**.
+* Option B will give a **10 Opinion Bonus** & **30 Trade Influence** for **24 months**.
+* Option C gives **nothing**, the nation **rejects** Brazil. **Status quo**.
 
-[h3][b]War Bonds[/b] (Focus) [Bugfix] [/h3]
-Replaced all requirements with:
-[list]
-[*]War support > 0.50
-[*]Stability > 0.50
-[/list]
-War Bonds (National Spirit)
-[list]
-[*]-Consumer Goods Factor from -15% to -10%.
-[*]-War support factor removed = +20%
-[*]+Weekly war support = 0.10%.
-[*]+Weekly stability = 0.10%.
-[/list]
-
-[h1][u]GOOD NEIGHBOR POLICY PATH > DEMOCRATIC BRAZIL & NON-ALIGNED 'ESTADO NOVO' & NON ALIGNED MONARCHISM [/u][/h1]
-
-[h3][b]American-Brazilian Technology Exchange[/b] (Focus) [Balance] [/h3]
-[list]
-[*] Adds 1 Extra Research Slot.
-[*] Focus now takes 70 days instead of 35.
-[/list]
-Summary: I have genetically enhanced all Brazilians. You're welcome.
-
-[h3][b]Latin American Research Council[/b] (Focus) [Balance] [/h3]
-[list]
-[*] Adds 1 Extra Research Slot.
-[/list]
-Summary: I have genetically enhanced all Brazilians. You're welcome.
-
-[h3][b]Good Neighbor Policy[/b] (Focus) [Balance, Depth] [/h3]
-Requirements:
-[list]
-[*]Now requires Brazil to not be engaged in any offensive wars with countries in North America, South America or the Caribbean.
-[/list]
-
-Now has three outcome for event.
-[list]
-[*]Option A will give a 30 Opinion Bonus & 100 Trade Influence for 48 months.
-[*]Democratic Brazil: only Democratic nations will choose this.
-[/list]
-[list]
-[*]Option B will give a 10 Opinion Bonus & 30 Trade Influence for 24 months.
-[*]Democratic Brazil: only Communist & Non-Aligned nations will choose this.
-[*]Non-Aligned Brazil: only Non-Aligned, Fascist & Democratic nations will choose this.
-[/list]
-[list]
-[*]Option C. Gives nothing, the nation rejects Brazil. Status quo.
-[*]Democratic Brazil: Fascist nations will choose this, making a deal with them impossible.
-[*] Non-Aligned Brazil: Communist nations will choose this, making a deal with them impossible.
-[/list]
-Other Changes:
-[list]
-[*]Now event also sent to countries in North America.
-[*]Opinion bonus is now mutual. Trade Influence added is also mutual.
-[/list]
-Summary: Reward is far greater with Trade Influence gain potential, particularly with the USA. Now has more depth by checking for ideologies. Actually requires you to be a good neighbour and not be elbow dropping your cousins.
-
-[h3][b]The Washington Accords[/b] (Focus) [Balance, Depth] [/h3]
-Requirements:
-[list]
-[*]Now requires the major that USA is at war with to not be Democratic or a nation that holds elections.
-[*]Now requires USA to not be justifying on Brazil.
-[*]Now requires USA to not have capitulated.
-[*]Now requires USA must hold elections.
-[*]Now requires USA to not be fascist.
-[*]Now requires USA to not be justifying on Brazil.
-
-[*]No longer requires USA to be Democratic
-[*]No longer requires Brazil to not be in a faction.
-[/list]
-Other Changes:
-[list]
-[*]From 35 Days to 70.
-[*]Now shows what happens if USA refuses deal in tooltip. Brazil will have -50 opinion of USA.
-[*]Now any major country at war with the USA will get a -50 negative opinion of Brazil.
-[*]Now Brazil and USA will get +100 Trade Influence with each other.
-[*]Now any major country at war with the USA will get -100 Trade Influence with Brazil.
-[/list]
-[list]
-The Washington Accords (National Spirit):
-[*]-War support factor removed = +5%
-[*]-Democracy drift removed = +0.01
-[*]+Offensive War Stability Factor = +20%
-[*]+Defensive War Stability Factor = +20%
-[*]+Mobilization Speed = +0.30
-[/list]
-Summary: Now actually aligns you with the USA with greater reward (Trade Influence) and bonuses that will help you in a war, at the expensive of alienating yourself from USA's major enemies. Can now align with more than just Democratic USA; Communist USA and I think Non-Aligned can be aligned with, as long as they hold elections. 
+#### Other Changes:
+``` diff
++ Now event also sent to countries in North America.
++ Opinion bonus is now mutual. Trade Influence added is also mutual.
+```
+>Reward is far greater with **Trade Influence** gain potential, particularly with the **USA**.
+>Now has more depth by checking for ideologies. Actually requires you to be a good neighbor and not be elbow dropping your cousins.
+---
+## The Washington Accords 🏭 🗺️ 💱 (Focus) [Balance, Depth]
+#### Requirements:
+``` diff
++ Now requires the major that USA is at war with to not be Democratic or a nation that holds elections.
++ Now requires USA to not be justifying on Brazil.
++ Now requires USA to not have capitulated.
++ Now requires USA must hold elections.
++ Now requires USA to not be fascist.
++ Now requires USA to not be justifying on Brazil.
+- No longer requires USA to be Democratic or Brazil to not be in a faction.
+```
+#### Other Changes:
+```diff
+! From 35 Days to 70.
++ Now shows what happens if USA refuses deal in tooltip. Brazil will have -50 opinion of USA.
++ Now any major country at war with the USA will get a -50 negative opinion of Brazil.
++ Now Brazil and USA will get +100 Trade Influence with each other.
++ Now any major country at war with the USA will get -100 Trade Influence with Brazil.
+```
+#### The Washington Accords (National Spirit):
+``` diff
+- War support factor removed = +5%
+- Democracy drift removed = +0.01
++ Offensive War Stability Factor = +20%
++ Defensive War Stability Factor = +20%
++ Mobilization Speed = +0.30
+```
+> Now actually **aligns you with the USA** with greater reward (**Trade Influence**) and bonuses that will help you in a **war**, at the expense of alienating yourself from USA's **major enemies**. Can now align with more than just **Democratic USA**; **Communist USA** and I think **Non-Aligned** can be aligned with, as long as **they hold elections**.
 
 [h3][b]No Fascism In South America[/b] (Focus) [Bugfix, Balance] [/h3]
 [list]
