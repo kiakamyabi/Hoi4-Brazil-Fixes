@@ -1,19 +1,20 @@
 Should work with open beta 1.14.3
 
-Adds a 5th Research Slot for all ideologies, fixed some bugs and tuned some focuses be more interesting for Brazil in the Trials of Allegiance DLC.
-Democratic Brazil is mostly finished. You can actually get most of South America in the United States of South America path.
-Non-Aligned is about a third finished.
-Communist & Fascist is barely touched.
+Adds a 5th Research Slot for all ideologies, fixed some bugs and tuned some focuses be more interesting for Brazil in the Trials of Allegiance DLC. <br>
+Democratic Brazil is mostly finished. You can actually get most of South America in the United States of South America path. <br>
+Non-Aligned is about a third finished. <br>
+Communist & Fascist is barely touched. <br>
 
-Has no changes to the AI and doesn't add any new focuses, meaning it should be compatible with anything compatible with vanilla.
+Has no changes to the AI and doesn't add any new focuses, meaning it should be compatible with anything compatible with vanilla. <br>
 
-Feel free to do whatever you want with this code. It should probably be in the actual game. Feel free to hire me as well, and maybe give me a million dollars.
+Feel free to do whatever you want with this code. It should probably be in the actual game. Feel free to hire me as well, and maybe give me a million dollars. <br>
 
-## <ins>DEMOCRATIC BRAZIL </ins>
-### **The International Crisis** (Focus) [Bugfix] [/h3]
+## <ins> DEMOCRATIC BRAZIL </ins>
+---
+### **The International Crisis** (Focus) [Bugfix]
 
-*Added can Send Volunteers Rule
-*Focus now takes 35 days instead of 70.
+* Added can Send Volunteers Rule
+* Focus now takes 35 days instead of 70.
 
 Summary: Democracies can't send volunteers making this previously useless.
 
