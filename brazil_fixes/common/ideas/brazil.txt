@@ -17,9 +17,9 @@ ideas = {
 			
 			modifier = {
 
-				consumer_goods_factor = -0.15
-				industrial_capacity_factory = 0.05
-				industrial_capacity_dockyard = 0.05
+				consumer_goods_factor = -0.10
+				industrial_capacity_factory = 0.1
+				industrial_capacity_dockyard = 0.1
 				
 			}
 		}
@@ -311,6 +311,7 @@ ideas = {
 				offensive_war_stability_factor = 0.2
 				defensive_war_stability_factor = 0.2
 				production_speed_buildings_factor = 0.1
+				mobilization_speed = 0.3
 			}
 		}
 
@@ -604,9 +605,14 @@ ideas = {
 			}
 
 			modifier = {
-				drift_defence_factor = 0.1
-				army_morale_factor = 0.05
-				compliance_growth = 0.05
+				drift_defence_factor = 0.3
+				army_morale_factor = 0.10
+				compliance_growth = 0.20
+				resistance_target_on_our_occupied_states = 0.1
+				civilian_intel_to_others = -10
+				non_core_manpower = 0.05
+				resistance_decay = 0.2
+				supply_combat_penalties_on_core_factor = -0.2
 			}
 		}
 
@@ -642,11 +648,16 @@ ideas = {
 			}
 
 			modifier = {
-				army_core_attack_factor = 0.05
-				army_core_defence_factor = 0.05
-				conscription_factor = 0.02
+				conscription_factor = 0.1
+				resistance_damage_to_garrison = -0.2
+				required_garrison_factor = -0.2
+				encryption = 1
+				army_intel_to_others = -10
+				enemy_operative_capture_chance_factor = 0.2
+				root_out_resistance_effectiveness_factor = 0.5
+				army_attack_factor = 0.1
 			}
-		}
+		}	
 
 		BRA_romanticize_the_old_empire_idea = {
 			picture = bra_monarchist_uprising
@@ -894,9 +905,10 @@ ideas = {
 			removal_cost = -1
 			picture =  generic_goods_red_bonus
 
-			modifier = { #REMEMBER TO UPDATE REARMING 
+			modifier = {
 				consumer_goods_factor = -0.10
-				war_support_factor = 0.2
+				war_support_weekly = 0.001
+				stability_weekly = 0.001
 			}
 		}
 

@@ -13,9 +13,20 @@ opinion_modifiers = {
 		value = 50
 		months = 48		
 	}
+	BRA_accepted_washington_accords_trade_friendly = {
+		trade = yes
+		value = 100
+		months = 48		
+	}
+
 
 	BRA_accepted_washington_accords_hostile = {
 		value = -50
+		months = 48		
+	}
+	BRA_accepted_washington_accords_trade_hostile = {
+		trade = yes
+		value = -200
 		months = 48		
 	}
 

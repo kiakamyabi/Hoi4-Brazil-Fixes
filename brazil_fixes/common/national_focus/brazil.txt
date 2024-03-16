@@ -2030,7 +2030,7 @@ focus_tree = {
 		x = -10
 		y = 1
 		relative_position_id = BRA_secure_our_borders
-		cost = 5
+		cost = 10
 		ai_will_do = {
 			factor = 30
 			modifier = {
@@ -2048,7 +2048,7 @@ focus_tree = {
 					NOT = {
 						any_enemy_country = {
 							custom_trigger_tooltip = {
-								tooltip = BRA_good_neighbor_policy_tt
+								tooltip = BRA_good_neighbor_policy_trigger_tt
 								AND = {
 									capital_scope = {
 										OR = {
@@ -2064,7 +2064,6 @@ focus_tree = {
 				}
 			}	
 		}	
-		# BRA_good_neighbor_policy_tt
 
 		search_filters = { FOCUS_FILTER_HISTORICAL FOCUS_FILTER_POLITICAL}
 
@@ -2084,7 +2083,9 @@ focus_tree = {
 					hours = 1
 				}
 				event_option_tooltip = JUNO_brazil_events.14.a
+				event_option_tooltip = JUNO_brazil_events.14.b
 			}
+			custom_effect_tooltip = JUNO_brazil_events_14_tt_3
 		}
 	}
 
@@ -2098,14 +2099,14 @@ focus_tree = {
 		x = 0
 		y = 1
 		relative_position_id = BRA_cooperation_in_the_americas
-		cost = 10
+		cost = 5
 		ai_will_do = {
 			factor = 20
 		}
 		available = {
-			any_country = {
-				has_war = yes
-				has_civil_war = no
+			OR = {
+				threat > 0.3
+				has_war_support > 0.7
 			}
 		}
 
@@ -2134,10 +2135,10 @@ focus_tree = {
 						}
 					}
 				}
-				add_extra_state_shared_building_slots = 1
+				add_extra_state_shared_building_slots = 3
 				add_building_construction = {
 					type = arms_factory
-					level = 1
+					level = 2
 					instant_build = yes
 				} 
 			}
@@ -2163,7 +2164,7 @@ focus_tree = {
 						}
 					}
 				}
-				add_extra_state_shared_building_slots = 1
+				add_extra_state_shared_building_slots = 3
 				add_building_construction = {
 					type = dockyard
 					level = 1
@@ -2173,7 +2174,7 @@ focus_tree = {
 
 			add_timed_idea = {
 				idea = BRA_national_defence_fund_idea
-				days = 360
+				days = 450
 			}
 
 		}
@@ -2283,7 +2284,7 @@ focus_tree = {
 		x = 0
 		y = 1
 		relative_position_id = BRA_reach_out_to_our_neighbors
-		cost = 5
+		cost = 10
 		bypass = {
 		}
 		available = {
@@ -2297,63 +2298,20 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_HISTORICAL }
 
 		completion_reward = {
-			IF = {
-				limit = {
-					NOT = {
-						has_completed_focus = BRA_reach_out_to_our_neighbors
-					}
-				}
-				custom_effect_tooltip = BRA_south_american_defense_cooperation_tt
-			}
+
+			custom_effect_tooltip = BRA_south_american_defense_cooperation_tt
 			every_country = {
 				limit = {
 					is_in_faction_with = ROOT
 					capital_scope = {
 						is_on_continent = south_america
-						is_core_of = PREV
 					}
 				}
 				every_army_leader = {
-					random_list = {
-						10 = {
-							modifier = {
-								factor = 0
-								has_trait = ranger
-							}
-							add_trait = { trait = ranger }
-						}
-						10 = {
-							modifier = {
-								factor = 0
-								has_trait = jungle_rat
-							}
-							add_trait = { trait = jungle_rat }
-						}
-						10 = {
-							modifier = {
-								factor = 0
-								has_trait = trait_mountaineer 
-							}
-							add_trait = { trait = trait_mountaineer  }
-						}
-						10 = {
-							modifier = {
-								factor = 0
-								has_trait = hill_fighter
-							}
-							add_trait = { trait = hill_fighter }
-						}
-						10 = {
-							modifier = {
-								factor = 0
-								has_trait = desert_fox
-							}
-							add_trait = { trait = desert_fox }
-						}
-						50 = {
-							#do nothing
-						}
+					add_trait = {
+						 trait = jungle_rat
 					}
+					add_logistics = 2
 				}
 			}
 		}
@@ -2428,7 +2386,7 @@ focus_tree = {
 		x = 0
 		y = 1
 		relative_position_id = BRA_south_american_defense_cooperation
-		cost = 10
+		cost = 5
 		bypass = {
 		}
 		available = {
@@ -2524,8 +2482,12 @@ focus_tree = {
 			every_other_country = {
 				limit = {
 					original_tag = USA
-					# has_war_with_major = yes
-					has_government = democratic
+					has_war_with_major = yes
+					OR = {
+						has_government = democratic
+						has_government = communism
+						has_government = neutrality
+					}
 				}
 				country_event = {
 					id = JUNO_brazil_events.15
@@ -2549,7 +2511,7 @@ focus_tree = {
 		x = 0
 		y = 1
 		
-		cost = 10
+		cost = 5
 		available = {
 			any_country = {
 				original_tag = GER
@@ -5092,6 +5054,7 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_POLITICAL FOCUS_FILTER_STABILITY}
 
 		completion_reward = {
+			add_political_power = 100
 			hidden_effect = {
 				set_temp_variable = {
 					var = ban_ideology_var
@@ -5148,7 +5111,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = BRA_posts_for_generals
 		prerequisite = { focus = BRA_posts_for_generals }
-		cost = 5
+		cost = 10
 		ai_will_do = {
 			factor = 10
 		}
@@ -5240,7 +5203,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = BRA_free_speech
 		prerequisite = { focus = BRA_free_speech }
-		cost = 5
+		cost = 10
 		ai_will_do = {
 			factor = 10
 		}
@@ -5363,9 +5326,12 @@ focus_tree = {
 		ai_will_do = {
 			factor = 5
 		}
-		#available = {
-		#	has_idea = BRA_separatism_idea
-		#}
+		available = {
+			AND = {
+				has_war_support > 0.5
+				has_stability > 0.5
+			}
+		}
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
 
@@ -5451,7 +5417,7 @@ focus_tree = {
 		relative_position_id = BRA_tech_slot_2
 		prerequisite = { focus = BRA_address_labor_disputes }
 		#mutually_exclusive = { focus = BRA_secure_our_borders }
-		cost = 10
+		cost = 5
 		ai_will_do = {
 			factor = 30
 		}

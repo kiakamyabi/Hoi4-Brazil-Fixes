@@ -137,6 +137,8 @@ country_event = {
 				has_government = democratic
 			}
 		}
+		custom_effect_tooltip = poormans_linebreak
+		custom_effect_tooltip = JUNO_brazil_events_14_tt_1
 		add_opinion_modifier = {
 			target = FROM
 			modifier = BRA_good_neighbor_policy_opinion_embraced
@@ -145,18 +147,19 @@ country_event = {
 			target = FROM
 			modifier = BRA_good_neighbor_policy_trade_embraced
 		}
-		FROM = {
-			add_opinion_modifier = {
-				target = ROOT
-				modifier = BRA_good_neighbor_policy_opinion_embraced
-			}
-			add_opinion_modifier = {
-				target = ROOT
-				modifier = BRA_good_neighbor_policy_trade_embraced
+
+		hidden_effect = {
+			FROM = {
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = BRA_good_neighbor_policy_opinion_embraced
+				}
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = BRA_good_neighbor_policy_trade_embraced
+				}
 			}
 		}
-
-
 	}
 	option = {
 		name = JUNO_brazil_events.14.b
@@ -194,6 +197,8 @@ country_event = {
 			}
 
 		}
+		custom_effect_tooltip = poormans_linebreak
+		custom_effect_tooltip = JUNO_brazil_events_14_tt_2
 		add_opinion_modifier = {
 			target = FROM
 			modifier = BRA_good_neighbor_policy_opinion_accepted
@@ -202,15 +207,18 @@ country_event = {
 			target = FROM
 			modifier = BRA_good_neighbor_policy_trade_accepted
 		}
-		FROM = {
-			add_opinion_modifier = {
-				target = ROOT
-				modifier = BRA_good_neighbor_policy_opinion_accepted
+		hidden_effect = {
+			FROM = {
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = BRA_good_neighbor_policy_opinion_accepted
+				}
+				add_opinion_modifier = {
+					target = ROOT
+					modifier = BRA_good_neighbor_policy_trade_accepted
+				}
 			}
-			add_opinion_modifier = {
-				target = ROOT
-				modifier = BRA_good_neighbor_policy_trade_accepted
-			}
+
 		}
 	}
 	option = {
@@ -260,6 +268,10 @@ country_event = {
 			modifier = BRA_accepted_washington_accords_friendly
 			target = FROM
 		}
+		add_opinion_modifier = {
+			modifier = BRA_accepted_washington_accords_trade_friendly
+			target = FROM
+		}
 		FROM = {
 			country_event = {
 				id = JUNO_brazil_events.16
@@ -296,11 +308,21 @@ country_event = {
 			modifier = BRA_accepted_washington_accords_friendly
 			target = FROM
 		}
+		custom_effect_tooltip = poormans_linebreak
+
+		add_opinion_modifier = {
+			modifier = BRA_accepted_washington_accords_trade_friendly
+			target = FROM
+		}
+		custom_effect_tooltip = poormans_linebreak
+
 		add_timed_idea = {
 			idea = BRA_washington_accords_idea
 			days = 730
 		}
-		every_country = {
+		custom_effect_tooltip = poormans_linebreak
+
+		every_other_country = {
 			limit = {
 				AND = {
 					is_major = yes
@@ -309,6 +331,13 @@ country_event = {
 			}
 			add_opinion_modifier = {
 				modifier = BRA_accepted_washington_accords_hostile
+				target = ROOT
+			}
+			
+			custom_effect_tooltip = poormans_linebreak
+
+			add_opinion_modifier = {
+				modifier = BRA_accepted_washington_accords_trade_hostile
 				target = ROOT
 			}
         }
