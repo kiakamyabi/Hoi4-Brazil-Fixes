@@ -10,14 +10,17 @@ Has no changes to the AI and doesn't add any new focuses, meaning it should be c
 
 Feel free to do whatever you want with this code. It should probably be in the actual game. Feel free to hire me as well, and maybe give me a million dollars. <br>
 
-## <ins> DEMOCRATIC BRAZIL </ins> <br>
+## <ins> DEMOCRATIC BRAZIL 🗽 </ins> <br>
 ---
 ### **The International Crisis** (Focus) [Bugfix] <br>
+```diff
++ Test
+```
 
-` Added can Send Volunteers Rule` <br>
-` Focus now takes 35 days instead of 70.` <br>
+* Added can Send Volunteers Rule` <br>
+* Focus now takes 35 days instead of 70.` <br>
 
-** Summary **: Democracies can't send volunteers making this previously useless. <br>
+**Summary** : Democracies can't send volunteers making this previously useless. <br>
 
 [h3][b]War Bonds[/b] (Focus) [Bugfix] [/h3]
 Replaced all requirements with:
