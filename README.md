@@ -14,7 +14,7 @@ Feel free to do whatever you want with this code. It should probably be in the a
 ---
 ### **The International Crisis** (Focus) [Bugfix] <br>
 ```diff
-+ Test
+<span style="color:green"> Test </span>
 ```
 
 * Added can Send Volunteers Rule` <br>
