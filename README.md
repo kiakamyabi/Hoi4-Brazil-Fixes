@@ -15,8 +15,8 @@ Feel free to do whatever you want with this code. It should probably be in the a
 ### **The International Crisis** (Focus) [Bugfix] <br>
 
 ```diff
-* + Added can Send Volunteers Rule` <br>
-* + Focus now takes 35 days instead of 70.` <br>
++ Added can Send Volunteers Rule` <br>
++ Focus now takes 35 days instead of 70.` <br>
 ```
 
 **Summary** : Democracies can't send volunteers making this previously useless. <br>
