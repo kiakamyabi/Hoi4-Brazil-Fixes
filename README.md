@@ -40,8 +40,8 @@ _______
 _______
 _______
 ## GOOD NEIGHBOR POLICY PATH >
-### * DEMOCRATIC BRAZIL 🗽
-### * NON-ALIGNED 'ESTADO NOVO' 🎩 & MONARCHISM 👑
+### DEMOCRATIC BRAZIL 🗽
+### NON-ALIGNED 'ESTADO NOVO' 🎩 & MONARCHISM 👑
 ****
 ### American-Brazilian Technology Exchange 🎓 (Focus) [Balance]
 ```diff
