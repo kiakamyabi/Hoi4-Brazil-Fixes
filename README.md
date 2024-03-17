@@ -23,7 +23,7 @@ Feel free to do whatever you want with this code. Some of it should be in the ga
 ```
 >Buff to make the conservative democratic side more appealing.
  _______ 
-## The United States of Brazil  🎖️ 🕵️(Focus) [Balance]
+## The United States of Brazil  🎖️ 🕵️ (Focus) [Balance]
   ```diff
 ! From 35 Days to 70.
 + Defense Drift from +0.10 to +0.30
@@ -35,8 +35,9 @@ Feel free to do whatever you want with this code. Some of it should be in the ga
 + Non-core Manpower +0.05
 + Supply Combat Penalties On Core -0.20
   ```
+>Liberal Democratic Brazil gets non-core manpower and high compliance, giving them more long term potential with non-core land.
 _______
-Order and Progress 🎖️ 🕵️ (Focus) [Balance]
+## Order and Progress 🎖️ 🕵️ (Focus) [Balance]
   ```diff
 ! From 35 Days to 70.
 - Army Core Attack removed. = 0.05
@@ -50,6 +51,7 @@ Order and Progress 🎖️ 🕵️ (Focus) [Balance]
 + Root Out Resistance Effectiveness +0.50
 + Army Attack +0.10
   ```
+>Conservative Democratic Brazil gets more aggressive military bonuses and can deal with resistance easier.
 _______
   
 ## War Bonds 🏭 ⚔️ 🏛️ (Focus) [Bugfix]
@@ -170,6 +172,7 @@ OR
 + Building slot for state gaining Dockyard from 1 to 3.
 ! From 365 Days to 450.
   ```
+>Simple buff to an industry focus but now with a higher requirement. Gives you more flexibility in what focuses to pick.
 _______
 ## South American Joint Military Exercises 🎖️ 🌎 (Focus) [Balance]
   ```diff
@@ -177,6 +180,7 @@ _______
 - No longer gives random terrain traits with chance of failure.
 + Now gives guaranteed Jungle Rat trait and 2 Logistics skill to all army leaders of nations in South America who are in your faction.
 ```
+>Previously it was too random and I prefer predictability. Now gives South America a unique advantage in being very good at fighting in forests and consuming less supplies.
   _______
 ## American-Brazilian Technology Exchange 🎓 (Focus) [Balance]
 ```diff
