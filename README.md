@@ -1,4 +1,4 @@
-# Brazil Fixes 📉
+# 📈 Brazil Fixes 📉
   
 Should work with open beta 1.14.3
 
