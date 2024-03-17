@@ -111,7 +111,7 @@ _______
  ## The Washington Accords 🏭 🗺️ 💱 (Focus) [Balance, Depth]
 #### Requirements:
 ``` diff
-+ Now requires the major that USA is at war with to not be Democratic or a nation that holds elections.
++ Now requires the major that USA is at war with to not be Democratic.
 + Now requires USA to not be justifying on Brazil.
 + Now requires USA to not have capitulated.
 + Now requires USA must hold elections.
@@ -154,6 +154,35 @@ _______
 + Now specifies that Strategic Regions 34, 205, and 53 are not included.
 ```
 >Now you get **wargoals** for countries only in **South America**.
+_______
+## Construct Parnamirim Airport 🛩️ 🏭 🌎 (Focus) [Balance]
+   ### Requirements:
+```diff
++ Now requires USA to be at war with major nation which is not Democratic or a nation that holds elections.
++ Now requires USA to not be justifying on Brazil.
++ Now requires USA to not have capitulated.
++ Now requires USA must hold elections.
++ Now requires USA to not be fascist.
++ Now requires USA to not be justifying on Brazil.
++ Now requires Brazil to be Democratic or Non-Aligned.
+```
+>Matches **requirements for Washington Accords** to avoid suddenly being able to align with fascist America or something.
+_______
+## Cobras Fumantes 💰 (Focus) [Balance]
+### Requirements:
+```diff
+- No longer requires Brazil to be in a faction with the USA.
++ Now requires Brazil to be in a war with a nation at war with the USA.
+```
+>Allows you to continue to **align** with **USA** without having to be in their **faction**.
+_______
+## Senta a Púa! 💰 🛩️ (Focus) [Balance]
+### Requirements:
+```diff
+- No longer requires Brazil to be in a faction with the USA.
++ Now requires Brazil to be in a war with a nation at war with the USA.
+```
+>Allows you to continue to **align with USA** without having to be in their **faction**.
 _______
 ## Increase Defense Spending 🏭 (Focus) [Balance]
 ### New requirements:
