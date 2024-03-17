@@ -136,7 +136,7 @@ _______
 + Defensive War Stability Factor = +20%
 + Mobilization Speed = +0.30
 ```
-> Now actually **aligns you with the USA** with greater reward (**Trade Influence**) and bonuses that will help you in a **war**, at the expense of alienating yourself from USA's **major enemies**. Can now align with more than just **Democratic USA**; **Communist USA** and I think **Non-Aligned** can be aligned with, as long as **they hold elections**.
+> Now actually **aligns you with the USA**, even if you made your own faction or joined another. Greater rewards (**Trade Influence**) and bonuses that will help you in a **war**, at the expense of alienating yourself from USA's **major enemies**. Can now align with more than just **Democratic USA**; **Communist USA** and I think **Non-Aligned** can be aligned with, as long as **they hold elections**.
 _______
  ## No Fascism In South America ⚔️ 🌎 ☠️ (Focus) [Bugfix, Balance]
 ```diff
