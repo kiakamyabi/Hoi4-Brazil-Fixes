@@ -2450,7 +2450,6 @@ focus_tree = {
 							NOT = {
 								has_government = democratic
 							}
-							has_elections = no
 						}
 
 						NOT = {
@@ -2619,22 +2618,43 @@ focus_tree = {
 			factor = 15
 		}
 		available = {
+			AND = {
+				USA = {
+					AND = {
+						NOT = {
+							has_government = fascism
+						}
+						has_war = yes
+						has_capitulated = no
+						has_elections = yes
 
-			USA = {
-				exists = yes 
+						any_enemy_country = {
+							is_major = yes
+							NOT = {
+								has_government = democratic
+							}
+						}
+
+						NOT = {
+							is_justifying_wargoal_against = ROOT
+						}
+
+						NOT = {
+							has_war_with = ROOT
+						}
+					}
+				}
+				ROOT = {
+					OR = {
+						has_government = democratic
+						has_government = neutrality
+					}
+				}
 			}
 
-			NOT = {
-				has_war_with = USA
-			}
-
-			USA = {
-				has_war = yes
-			}
-
-			498 = {
-				is_owned_and_controlled_by = ROOT
-			}
+			# 498 = {
+			# 	is_owned_and_controlled_by = ROOT
+			# }
 		}
 
 		search_filters = { FOCUS_FILTER_HISTORICAL }
@@ -2765,7 +2785,12 @@ focus_tree = {
 			factor = 10
 		}
 		available = {
-			is_in_faction_with = USA
+			any_enemy_country = {
+				AND = {
+					has_war_with = BRA
+					has_war_with = USA
+				}
+			}
 		}
 
 		search_filters = { FOCUS_FILTER_HISTORICAL }
@@ -2898,7 +2923,12 @@ focus_tree = {
 		relative_position_id = BRA_natal_naval_base
 		cost = 5
 		available = {
-			is_in_faction_with = USA
+			any_enemy_country = {
+				AND = {
+					has_war_with = BRA
+					has_war_with = USA
+				}
+			}
 		}
 
 		search_filters = { FOCUS_FILTER_HISTORICAL }
