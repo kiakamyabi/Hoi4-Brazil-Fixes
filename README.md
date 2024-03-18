@@ -6,7 +6,7 @@ Should work with open beta 1.14.3
 Adds a 5th Research Slot for all ideologies, fixed some bugs and tuned some focuses be more interesting for Brazil in the Trials of Allegiance DLC. <br>
 Has no changes to the AI and doesn't add any new focuses, meaning it should be compatible with anything compatible with vanilla. <br>
 
-#### Democratic & Non-Aligned ("Good Neighbor" Path): 
+#### Democratic 🗽 & Non-Aligned 🎩/👑 ("Good Neighbor" Path): 
 * 5th Research Slot near bottom of political tree.
 * More interesting & unique rewards between Conservative & Liberals, for Democratic Brazil.
 * Now gain wargoals on Non-Aligned nations so you can actually form United States of South America fully. 
@@ -14,10 +14,10 @@ Has no changes to the AI and doesn't add any new focuses, meaning it should be c
 * Focuses that align you with USA no longer require you to join their faction until the final commitment, allowing you to cooperate with the USA as your own faction or part of another.
 * Can now cooperate with USA as long as they hold elections aka social democracy USA path.
   
-#### Fascist & Non-Aligned (Domination of Americas Path) : 
+#### Fascist ☠️ & Non-Aligned 🎩/👑 (Domination of Americas Path) : 
 * 5th Research Slot at bottom of political path. No other changes.
 
-#### Communist:
+#### Communist 🌹:
 * 5th Research Slot at bottom of political path. No other changes.
 
 Feel free to do whatever you want with this code. Some of it should be in the game. Feel free to hire me as well, and maybe give me a million dollars. <br>
@@ -256,7 +256,7 @@ _______
 
 <details>
 
-****
+_______
 ## America De Sul 🎓 (Focus) [Balance]
 ```diff
 + Adds 1 Extra Research Slot.
@@ -276,7 +276,7 @@ _______
 Adds 1 Extra Research Slot.
 ```
 >I have genetically enhanced all Brazilians. You're welcome.
-****
+_______
 ## End South American Capitalism ⚔️ 🌎 🗽 (Focus) [Bugfix]
 ```diff
 + Instead of specifically selecting some countries to not be included, now specifies that Strategic Region of 34, 205 and 53 are not included. Meaning you get wargoals for countries only in South America.
@@ -284,5 +284,13 @@ Adds 1 Extra Research Slot.
 ```
 >Previously, this focus wouldn't be activatable if **only Non-Aligned targets** were available, as it only checked for **Democracies**.
 >Also, same problems as "No Fascism In South America" with El Salvador, Panama, Mexico or the Dominican Republic.
+_______
+## Smash South American Fascism ⚔️ 🌎 ☠️(Focus)
+
+```diff
+! Instead of specifically selecting some countries to not be included, now specifies that Strategic Region of 34, 205 and 53 are not included. Meaning you only get wargoals for countries in South America.
+```
+> Same problems as "No Fascism In South America" with El Salvador,  Panama, Mexico or the Dominican Republic.
+_______
 
   </details>
