@@ -1,0 +1,36 @@
+﻿l_braz_por:
+
+poormans_linebreak: "£↓"
+
+## Custom tooltips
+BRA_no_fascism_in_south_america_modfix_tt: "Ganhar o objetivo de guerra §Y$puppet_wargoal$§! em todas as nações §YFascistas e Não-Alinhadas§! da §América do Sul§!"
+
+BRA_washington_accords_if_accepted_tt: "\nSe [USA.GetFlag] §Y[USA.GetNameDef]§! concordar com os acordos:"
+BRA_washington_accords_if_reject_tt: "\nSe [USA.GetFlag] §Y[USA.GetNameDef]§! rejeitar os acordos:"
+
+BRA_good_neighbor_policy_trigger_tt: "Que tem sua capital em §YAmérica do Norte§!, §YAmérica do Sul§! ou §YCaribbean§!, não deveriam estar em uma guerra defensiva contra [ROOT.GetFlag] §Y[ROOT.GetNameDef]§!."
+
+BRA_south_american_defense_cooperation_tt: "Todos os líderes do §Exército§! de todas as nações §Sul-americanas§! que fazem parte da nossa §Fação§! ganharão o traço §YJungle Rat§! e a habilidade §Y2 Logistics§!"
+
+JUNO_brazil_events_14_tt_1: "Qualquer nação que adopte plenamente a nossa nova política:"
+JUNO_brazil_events_14_tt_2: "Qualquer nação que aceite a nossa nova política:"
+JUNO_brazil_events_14_tt_3: "\nOs países que nos rejeitam manterão as suas relações inalteradas.\n\nOs países com uma ideologia oposta à nossa têm menos probabilidades de a aceitar."
+
+## Opinions
+BRA_accepted_washington_accords_friendly: "Adoção dos Acordos de Washington."
+BRA_accepted_washington_accords_trade_friendly: "Adoção dos Acordos de Washington."
+
+BRA_accepted_washington_accords_hostile: "Os Acordos de Washington são contra os nossos interesses"
+BRA_accepted_washington_accords_trade_hostile: "Os Acordos de Washington são contra os nossos interesses"
+
+BRA_good_neighbor_policy_opinion_embraced: "Política de boa vizinhança: Totalmente adoptada"
+BRA_good_neighbor_policy_trade_embraced: "Política de boa vizinhança: Totalmente adoptada"
+
+BRA_good_neighbor_policy_opinion_accepted: "Política de boa vizinhança: Aceite"
+BRA_good_neighbor_policy_trade_accepted: "Política de boa vizinhança: Aceite"
+
+## Events
+
+JUNO_brazil_events.14.a: "Esta é uma óptima oportunidade."
+JUNO_brazil_events.14.b: "Veremos."
+JUNO_brazil_events.14.c: "Isto é claramente um estratagema para nos minar."

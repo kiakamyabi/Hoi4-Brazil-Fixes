@@ -1,3 +1,33 @@
 ﻿l_spanish:
 
+poormans_linebreak: "£↓"
+
+# Custom tooltips
 BRA_no_fascism_in_south_america_modfix_tt: "Gana el objetivo de guerra §Y$puppet_wargoal_focus$§! contra todas las naciones §Yfascistas y No Alineadas§! de §YSudamérica§!"
+
+BRA_washington_accords_if_accepted_tt: "\nSi [USA.GetFlag] §Y[USA.GetNameDef]§! acepta acuerdos:"
+BRA_washington_accords_if_reject_tt: "\nSi [USA.GetFlag] §Y[USA.GetNameDef]§! rechaza acuerdos:"
+
+BRA_good_neighbor_policy_trigger_tt: "Que tiene su capital en §YNorteamérica§!, §YSuramérica§! o el §YCaribe§!, no debe estar en una guerra defensiva contra  [ROOT.GetFlag] §Y[ROOT.GetNameDef]§!."
+
+JUNO_brazil_events_14_tt_1: "Cualquier nación que adopte plenamente nuestra nueva política:"
+JUNO_brazil_events_14_tt_2: "Cualquier nación que acepte nuestra nueva política:"
+JUNO_brazil_events_14_tt_3: "nCualquier nación que nos rechace mantendrá sus relaciones sin cambios.\n\nEs menos probable que las naciones con una ideología opuesta a la nuestra acepten."
+
+## Opinions
+BRA_accepted_washington_accords_friendly: "Acuerdos de Washington adoptados"
+BRA_accepted_washington_accords_trade_friendly: "Acuerdos de Washington adoptados"
+
+BRA_accepted_washington_accords_hostile: "Los Acuerdos de Washington van en contra de nuestros intereses"
+BRA_accepted_washington_accords_trade_hostile: "Los Acuerdos de Washington van en contra de nuestros intereses"
+
+BRA_good_neighbor_policy_opinion_embraced: "Política de Buen Vecino: Totalmente adoptada"
+BRA_good_neighbor_policy_trade_embraced: "Política de Buen Vecino: Totalmente adoptada"
+
+BRA_good_neighbor_policy_opinion_accepted: "Política de Buen Vecino: Aceptada"
+BRA_good_neighbor_policy_trade_accepted: "Política de Buen Vecino: Aceptada"
+
+## Events
+JUNO_brazil_events.14.a: "Esta es una gran oportunidad."
+JUNO_brazil_events.14.b: "Nosotros veremos."
+JUNO_brazil_events.14.c: "Esto es claramente una artimaña para socavarnos."

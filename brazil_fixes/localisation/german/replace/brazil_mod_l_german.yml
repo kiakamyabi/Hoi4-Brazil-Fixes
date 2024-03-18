@@ -1,0 +1,35 @@
+﻿l_german:
+
+poormans_linebreak: "£↓"
+
+## Custom tooltips
+BRA_no_fascism_in_south_america_modfix_tt: "Gewinnen Sie §Y$puppet_wargoal_focus$§! Kriegsziel auf alle §YFaschistischen und blockfreien§! Nationen in §YSüdamerika§!"
+
+BRA_washington_accords_if_accepted_tt: "\nWenn [USA.GetFlag] §Y[USA.GetNameDef]§! den Abkommen zustimmt:"
+BRA_washington_accords_if_reject_tt: "\nWenn [USA.GetFlag] §Y[USA.GetNameDef]§! das Abkommen ablehnt:"
+
+BRA_good_neighbor_policy_trigger_tt: "Das seine Hauptstadt in §YNordamerika§!, §YSüdamerika§! oder der §YKaribik§! hat, darf sich nicht in einem Verteidigungskrieg gegen [ROOT.GetFlag] §Y[ROOT.GetNameDef]§!"
+
+BRA_south_american_defense_cooperation_tt: "Jeder §Yarmy Leader§! jeder §YSüdamerikanischen§! Nation, die in unserer §YFaction§! ist, wird die Eigenschaft §YJungle Rat§! und die Fähigkeit §Y2 Logistics§! erhalten."
+
+JUNO_brazil_events_14_tt_1: "Jede Nation, die sich unsere neue Politik vollständig zu eigen macht:"
+JUNO_brazil_events_14_tt_2: "Jede Nation, die unsere neue Politik annimmt:"
+JUNO_brazil_events_14_tt_3: "\nAlle Nationen, die uns ablehnen, werden ihre Beziehungen unverändert fortsetzen.\n\nNationen mit einer uns entgegengesetzten Ideologie sind weniger geneigt zu akzeptieren."
+
+## Opinions
+BRA_accepted_washington_accords_friendly: "Angenommene Washingtoner Abkommen"
+BRA_accepted_washington_accords_trade_friendly: "Angenommene Washingtoner Abkommen"
+
+BRA_accepted_washington_accords_hostile: "Washingtoner Abkommen sind gegen unsere Interessen"
+BRA_accepted_washington_accords_trade_hostile: "Washingtoner Abkommen sind gegen unsere Interessen"
+
+BRA_good_neighbor_policy_opinion_embraced: "Politik der guten Nachbarschaft: Umarmt"
+BRA_good_neighbor_policy_trade_embraced: "Politik der guten Nachbarschaft: Umarmt"
+
+BRA_good_neighbor_policy_opinion_accepted: "Politik der guten Nachbarschaft: Angenommen"
+BRA_good_neighbor_policy_trade_accepted: "Politik der guten Nachbarschaft: Angenommen"
+
+## Events
+JUNO_brazil_events.14.a: "Dies ist eine großartige Gelegenheit."
+JUNO_brazil_events.14.b: "Wir werden sehen."
+JUNO_brazil_events.14.c: "Dies ist eindeutig eine List, um uns zu untergraben."

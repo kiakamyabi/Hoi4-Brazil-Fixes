@@ -1,0 +1,37 @@
+﻿l_english:
+
+poormans_linebreak: "£↓"
+
+## Custom tooltips
+BRA_no_fascism_in_south_america_modfix_tt: "Gain §Y$puppet_wargoal_focus$§! wargoal on all §YFascist and Non-Aligned§! nations in §YSouth America§!"
+
+BRA_washington_accords_if_accepted_tt: "\nIf [USA.GetFlag] §Y[USA.GetNameDef]§! agrees to accords:"
+BRA_washington_accords_if_reject_tt: "\nIf [USA.GetFlag] §Y[USA.GetNameDef]§! rejects accords:"
+
+BRA_good_neighbor_policy_trigger_tt: "That has its capital in §YNorth America§!, §YSouth America§! or the §YCaribbean§!, must not be in a defensive war against [ROOT.GetFlag] §Y[ROOT.GetNameDef]§!."
+
+BRA_south_american_defense_cooperation_tt: "Every §Yarmy leader§! of every §YSouth American§! nation that is in our §Yfaction§! will gain the §YJungle Rat§! trait and §Y2 Logistics§! skill."
+
+JUNO_brazil_events_14_tt_1: "Any nation that fully embraces our new policy:"
+JUNO_brazil_events_14_tt_2: "Any nation that accepts our new policy:"
+JUNO_brazil_events_14_tt_3: "\nAny nations that reject us will have relations unchanged.\n\nNations with an opposed ideology to us are less likely to accept."
+
+## Opinions
+BRA_accepted_washington_accords_friendly: "Adopted Washington Accords"
+BRA_accepted_washington_accords_trade_friendly: "Adopted Washington Accords"
+
+BRA_accepted_washington_accords_hostile: "Washington Accords are against our interests"
+BRA_accepted_washington_accords_trade_hostile: "Washington Accords are against our interests"
+
+BRA_good_neighbor_policy_opinion_embraced: "Good Neighbor Policy: Embraced"
+BRA_good_neighbor_policy_trade_embraced: "Good Neighbor Policy: Embraced"
+
+BRA_good_neighbor_policy_opinion_accepted: "Good Neighbor Policy: Accepted"
+BRA_good_neighbor_policy_trade_accepted: "Good Neighbor Policy: Accepted"
+
+## Events
+JUNO_brazil_events.14.desc: "The [FROM.GetAdjective] leader, [FROM.GetLeader], has announced that their government intends to seek greater cooperation with the nations of South America in what is being dubbed the "Good Neighbor" policy. What form this cooperation will take remains to be seen, but this is a marked deviation from the previously antagonistic relations between the Spanish and Portuguese speaking nations of the continent."
+
+JUNO_brazil_events.14.a: "This is a great opportunity."
+JUNO_brazil_events.14.b: "We shall see."
+JUNO_brazil_events.14.c: "This is clearly a ruse to undermine us."
