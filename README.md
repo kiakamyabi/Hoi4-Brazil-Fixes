@@ -2,27 +2,50 @@
   
 Should work with open beta 1.14.3
 
+### Quick Summary:
 Adds a 5th Research Slot for all ideologies, fixed some bugs and tuned some focuses be more interesting for Brazil in the Trials of Allegiance DLC. <br>
-  
-Democratic Brazil is mostly finished. <br>
-You can actually get most of South America in the United States of South America path. <br>
-Non-Aligned is about a third finished. <br>
-Communist & Fascist is barely touched. <br>
-
 Has no changes to the AI and doesn't add any new focuses, meaning it should be compatible with anything compatible with vanilla. <br>
 
+#### Democratic & Non-Aligned ("Good Neighbor" Path): 
+* 5th Research Slot near bottom of political tree.
+* More interesting & unique rewards between Conservative & Liberals, for Democratic Brazil.
+* Now gain wargoals on Non-Aligned nations so you can actually form United States of South America fully. 
+* Focuses that align you with USA now actually align you with the USA by giving greater rewards at the cost of antagonising USAs enemies, moving you to closer to war like in real life. 
+* Focuses that align you with USA no longer require you to join their faction until the final commitment, allowing you to cooperate with the USA as your own faction or part of another.
+* Can now cooperate with USA as long as they hold elections aka social democracy USA path.
+  
+#### Fascist & Non-Aligned (Domination of Americas Path) : 
+* 5th Research Slot at bottom of political path. No other changes.
+
+#### Communist:
+* 5th Research Slot at bottom of political path. No other changes.
+
 Feel free to do whatever you want with this code. Some of it should be in the game. Feel free to hire me as well, and maybe give me a million dollars. <br>
+## Current Localisations:
+* English
+* Spanish
+* Brazilian Portuguese
+* German
 
 ## DEMOCRATIC BRAZIL 🗽
  
 <details>
-  
+
+
 ## Ban The Communist Party 🌹 🏛️ (Focus) [Balance]
 ```diff
 + Political Power = +100
 ```
 >Buff to make the conservative democratic side more appealing.
  _______ 
+ ## Ministerial Posts for Generals 👨‍💼 (Focus) [Balance]
+ ```diff
+- Eurico Gaspar Dutra no longer blocked from being political advisor if currently country leader.
+```
+>Previously Eurico Gaspar Dutra would be locked out of the political advisor role if president, despite that being the point of an entire focus. As president he gave different bonuses that aren't as competitive as his political advisor ones.
+>I thought about adding his political advisor bonuses to his country leader bonuses but that would have turned him into a mandatory pick as he would be a raid boss. Having to sacrifice a political advisor slot is a good compromise, even if
+>thematically weird.
+_______ 
 ## The United States of Brazil  🎖️ 🕵️ (Focus) [Balance]
   ```diff
 ! From 35 Days to 70.
