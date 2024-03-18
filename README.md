@@ -21,7 +21,7 @@ Has no changes to the AI and doesn't add any new focuses, meaning it should be c
 * 5th Research Slot at bottom of political path. No other changes.
 
 Feel free to do whatever you want with this code. Some of it should be in the game. Feel free to hire me as well, and maybe give me a million dollars. <br>
-## Current Localisations:
+### Current Localisations:
 * English
 * Spanish
 * Brazilian Portuguese
