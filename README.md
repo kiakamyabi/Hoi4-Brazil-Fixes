@@ -1,6 +1,8 @@
 # 📈 Brazil Fixed 📉
   
-Should work with open beta 1.14.3
+Works with 1.14.3 <br>
+[Steam Workshop Link](https://steamcommunity.com/sharedfiles/filedetails/?id=3182360809&searchtext=Brazil+Fixes "Steam Workshop page") 
+
 
 ### Quick Summary:
 Adds a 5th Research Slot for all ideologies, fixed some bugs and tuned some focuses be more interesting for Brazil in the Trials of Allegiance DLC. <br>
